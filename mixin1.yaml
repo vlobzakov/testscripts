@@ -1,5 +1,5 @@
 actions:
-  mixin1restart:
+  createlogfile:
     cmd: touch /tmp/mixin
     nodeGroup: [sqldb]
-    log: mixin1Test
+    log: createlogfile
