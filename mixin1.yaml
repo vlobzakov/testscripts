@@ -1,0 +1,6 @@
+mixins:
+- https://raw.githubusercontent.com/vlobzakov/testscripts/master/sumanifest.jps
+
+actions:
+  mixin1Test:
+    log: mixin1Test
