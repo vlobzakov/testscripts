@@ -1,5 +1,5 @@
 actions:
   createlogfile:
     cmd: touch /tmp/mixin.log
-    nodeGroup: [${globals.layername}]
+    nodeGroup: ${globals.layername}
     log: createlogfile
