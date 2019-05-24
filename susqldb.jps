@@ -17,7 +17,8 @@ mixins: https://raw.githubusercontent.com/vlobzakov/testscripts/master/mixin1.ya
 nodes:
 - cloudlets: 8
   nodeType: mysql
-
+- cloudlets: 8
+  nodeType: tomcat
   
 onInstall:
   - createlogfile
