@@ -1,6 +1,5 @@
-mixins:
-- https://raw.githubusercontent.com/vlobzakov/testscripts/master/susqldb.jps
-
 actions:
-  mixin1Test:
+  mixin1restart:
+    restartNodes:
+    nodeGroup: [sqldb]
     log: mixin1Test
