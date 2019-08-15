@@ -1,7 +1,7 @@
 ---
 version: '1.5'
 type: install
-name: env2 for async test
+name: environment22
 envName: environment2
 
 description:
