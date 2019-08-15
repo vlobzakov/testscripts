@@ -2,7 +2,7 @@
 version: '1.5'
 type: install
 name: env2 for async test
-envName: env2
+envName: environment2
 
 description:
   short: Env2 for Async test
