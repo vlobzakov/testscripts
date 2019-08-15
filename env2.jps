@@ -1,8 +1,8 @@
 ---
 version: '1.5'
 type: install
-name: environment22
-envName: environment2
+name: environ2
+envName: environ2
 
 description:
   short: Env2 for Async test
