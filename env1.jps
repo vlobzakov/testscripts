@@ -1,8 +1,8 @@
 ---
 version: '1.5'
 type: install
-name: environment11
-envName: environment1
+name: environ1
+envName: environ1
 
 description:
   short: Env1 for Async test
