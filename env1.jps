@@ -2,8 +2,7 @@
 version: '1.5'
 type: install
 name: env1 for async test
-env:
-  shortdomain: env1
+envName: env1
 
 description:
   short: Env1 for Async test
