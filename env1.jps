@@ -1,0 +1,15 @@
+---
+version: '1.5'
+type: install
+name: env1 for async test
+
+description:
+  short: Env1 for Async test
+
+categories:
+- apps/cms
+
+nodes:
+- cloudlets: 6
+  nodeType: apache
+  
