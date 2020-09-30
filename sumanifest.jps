@@ -5,7 +5,7 @@ application:
   categories:
   - apps/dev-tools
   targetNodes:
-    nodeGroup: any
+    nodeGroup: *
 #    - cp
 #    - shenan
 #    - nosqldb
