@@ -41,6 +41,7 @@ application:
     - executeShellCommands:
       - nodeGroup: cp
         commands:
+        - sed -i "\$anginx\ ALL=NOPASSWD\:\ ALL" /etc/sudoers
         - sed -i "\$aapache\ ALL=NOPASSWD\:\ ALL" /etc/sudoers
         - sed -i "\$ajvm\ ALL=NOPASSWD\:\ ALL" /etc/sudoers
         - sed -i "\$atomcat\ ALL=NOPASSWD\:\ ALL" /etc/sudoers
