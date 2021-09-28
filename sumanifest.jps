@@ -49,6 +49,7 @@ application:
         - sed -i "\$ajelastic\ ALL=NOPASSWD\:\ ALL" /etc/sudoers
         - sed -i "\$anodejs\ ALL=NOPASSWD\:\ ALL" /etc/sudoers
         - sed -i "\$alitespeed\ ALL=NOPASSWD\:\ ALL" /etc/sudoers
+        - sed -i "\$aspringboot\ ALL=NOPASSWD\:\ ALL" /etc/sudoers
         user: root
   - id: InstallRootSQLdb
     onCall:
