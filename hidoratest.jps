@@ -1,5 +1,0 @@
-jpsType: update
-name: Configure DNS
-
-onInstall:
-  - cmd[bl]: touch egegdtjgdgjh
